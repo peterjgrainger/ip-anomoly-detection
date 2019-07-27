@@ -1,0 +1,32 @@
+{
+  "name": "ip-anomoly-detection",
+  "version": "1.0.0",
+  "description": "Repo to store notes and code for Auth0 interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterjgrainger/ip-anomoly-detection.git"
+  },
+  "keywords": [
+    "node",
+    "ip",
+    "anomoly",
+    "detection"
+  ],
+  "author": "Peter Grainger (peter@grainger.xyz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peterjgrainger/ip-anomoly-detection/issues"
+  },
+  "homepage": "https://github.com/peterjgrainger/ip-anomoly-detection#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jasmine": "^3.4.0",
+    "redis": "^2.8.0",
+    "supertest": "^4.0.2"
+  }
+}
